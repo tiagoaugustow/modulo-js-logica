@@ -2,8 +2,6 @@
 // const nomes = ["Ana", "Bruno", "Carla", "Diego", "Elisa", "Fábio", "Júnior"];
 // const mediadaescola = 7;
 
-const PromptSync = require("prompt-sync");
-
 // console.log(medias[3] + " " + nomes[3]) // Diego 7
 // console.log(medias[1]) //9
 // console.log(medias[5]) //7
@@ -26,11 +24,11 @@ const medias = []
 const mediaDaEscola = 7;
 let input;
 while (input != -1) {
-    while (input < 0 || isNaN (input))
+    while (input < 0 || isNaN (input)){
         console.log("Valor Inválido")
-    input = Number(prompt("Média do próximo aluno: "))
-}
+    input = Number(prompt("Média do próximo aluno: "))}
+
 input = Number(prompt("Média do próximo aluno: "))
 medias.push (input)
-
+    }
 console.log (medias)
