@@ -1,7 +1,7 @@
-SE a média do aluno é igual a 7 ou mais
-    Aluno está aprovado
-SENAO
-    Reprovado
+SE media >= 7
+  escreva "Aprovado"
+SENÃO
+  escreva "Reprovado"
 
 
 
