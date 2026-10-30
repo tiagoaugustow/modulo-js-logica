@@ -17,4 +17,4 @@ console.log("Antes de mudar: ", heroi)
 
 heroi.nome = "Bergkamp"
 
-console.log("Depois de mudar: ". heroi)
+console.log("Depois de mudar: ", heroi)
